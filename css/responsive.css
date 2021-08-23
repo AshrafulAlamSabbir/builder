@@ -1,0 +1,205 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+
+ .topbar-left {
+    margin-left: -40px;
+}
+  .topbar-left ul li {
+  
+    margin-right: 8px;
+    
+}
+
+.row>*{
+  width: auto !important;
+
+}
+
+.Banner-heading h1 {
+    font-size: 46px;
+  }
+  .Banner-heading p {
+    font-size: 9px;
+  }
+  .banner-btn {
+    background: #fab700;
+    color: #ffffff;
+}
+.service-title {
+    margin-top: -40px;
+}
+.service-title p {
+    font-size: 13px;
+
+  }
+
+.service-item {
+  margin-top: 0px;
+      padding: 45px;
+}
+.service-item p {
+    font-size: 12px;
+    }
+    .gallery-title h2 {
+      margin-right: -35px;
+}
+.gallery-title p {
+margin-left: 24px;
+margin-bottom: 40px;
+}
+.gallery-items {
+  grid-template-columns: auto;
+}
+.gallery-item1 {
+  
+    margin-bottom: 5px;
+}
+
+.t-title h2 {
+  font-size: 33px;
+      margin-top: -50px;
+}
+
+.t-title p {
+  font-size: 14px;
+  margin-bottom: -10px;
+}
+.member-img {
+  margin: 38px;
+}
+.member {
+    margin-top: 40px;
+  }
+.member h4 {
+  margin-top: -10px;
+}
+.member p {
+  margin-bottom: 4px;
+}
+.counter-list {
+  flex-direction: column;
+  text-align: center;
+}
+
+.list-item h4 {
+    font-size: 40px;
+  }
+
+.project-counter {
+    padding: 60px 0px;
+}
+
+.feature-grid {
+   grid-template-columns: auto;
+}
+
+.f-title h2 {
+  font-size: 24px;
+}
+.f-title p {
+font-size: 14px;
+margin-bottom: -26px;
+}
+
+.feature {
+    
+    padding: 50px 0px;
+}
+
+.t-content {
+  margin-right: 0px;
+}
+.tetimonial {
+  padding: 16px 0px;
+}
+
+.client-logo {
+    padding: 100px 0px;
+}
+.fot-1p p {
+    font-size: 19px;
+  }
+
+.fot-3p {
+  
+    margin-left: -30px;
+}
+.fot-3p p {
+    font-size: 11px;
+  }
+  .copyright p {
+    font-size: 8px;
+        margin-top: -16px;
+  }
+.mail input {
+  margin-bottom: -14px;
+}
+.last-icons i {
+   
+    margin-left: 1px;
+  }
+  .last-icons {
+    margin-left: 176px;
+}
+}
